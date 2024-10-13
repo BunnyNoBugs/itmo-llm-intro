@@ -15,7 +15,7 @@ sb_auth_data = os.getenv('SB_AUTH_DATA')
 
 def test_giga():
     giga = get_giga(sb_auth_data)
-    assert giga != None
+    assert giga is not None
 
 
 def test_prompt():
